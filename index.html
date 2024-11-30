@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList - Vite + TS</title>
+  </head>
+  <body>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <main id="app">
+      <h1>Todo List</h1>
+      <h3>What needs to be done?</h3>
+      <form id="todo-form">
+        <input id="new-todo" type="text" placeholder="Buy eggs" />
+        <div>
+          <button type="submit">Add</button>
+          <button id="remove-all" type="button">Remove All</button>
+        </div>
+      </form>
+      <ul id="todo-list"></ul>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
